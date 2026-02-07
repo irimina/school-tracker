@@ -47,3 +47,34 @@ button {
 #save-btn {
   background: #660063;
 }
+
+
+/* Target the semantic stats-dashboard */
+.stats-dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  color: #555;
+}
+
+#history-section {
+  border-top: 2px solid #eee;
+  padding-top: 15px;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points for a cleaner look */
+  padding: 0;
+}
+
